@@ -10,6 +10,8 @@ import GitHub from "@/assets/icons/github.svg?react";
 import Tailwind from "@/assets/icons/tailwind.svg?react";
 import Shadcn from "@/assets/icons/shadcn.svg?react";
 import Npm from "@/assets/icons/npm.svg?react";
+import ReactRouter from "@/assets/icons/reactrouter.svg?react";
+import Supabase from "@/assets/icons/supabase.svg?react";
 // import Vite from "@/assets/icons/vite.svg?react";
 // import Vscode from "@/assets/icons/vscode.svg?react";
 import vite from "@/assets/icons/vite.svg";
@@ -45,6 +47,11 @@ export const Skills = () => {
       </div>
 
       <div className="flex flex-col justify-center skill-icon shadow-skill hover:shadow-skill-hover">
+        <ReactRouter className="size-9 mb-2" />
+        <span className="text-muted-foreground text-sm tracking-wide">React Router</span>
+      </div>
+
+      <div className="flex flex-col justify-center skill-icon shadow-skill hover:shadow-skill-hover">
         {/* <Vite className="size-9 mb-2" /> */}
         <img src={vite} className="size-9 mb-2" alt="Vite Icon" />
         <span className="text-muted-foreground text-sm tracking-wide">Vite</span>
@@ -58,6 +65,11 @@ export const Skills = () => {
       <div className="flex flex-col justify-center skill-icon shadow-skill hover:shadow-skill-hover">
         <Shadcn className="size-9 mb-2" />
         <span className="text-muted-foreground text-sm tracking-wide">Shadcn</span>
+      </div>
+
+      <div className="flex flex-col justify-center skill-icon shadow-skill hover:shadow-skill-hover">
+        <Supabase className="size-9 mb-2" />
+        <span className="text-muted-foreground text-sm tracking-wide">Supabase</span>
       </div>
 
       <div className="flex flex-col justify-center skill-icon shadow-skill hover:shadow-skill-hover">
