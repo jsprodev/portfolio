@@ -18,7 +18,7 @@ export const About = ({ theme }) => {
 
   const codeString = `export const info = {
   name: "Hashim Bin Khalid",
-  title: "Front End Engineer",
+  title: "Frontend Developer",
   experience: "4 years",
   skills: ["HTML, CSS, JavaScript, React, TailwindCSS, ..."],
   isAvailableForHire: true,
@@ -52,7 +52,7 @@ export const About = ({ theme }) => {
           <span className="text-blue-600 dark:text-blue-500">B</span>in{" "}
           <span className="text-blue-600 dark:text-blue-500">K</span>halid
         </h1>
-        <h2 className="text-2xl">Front End Engineer</h2>
+        <h2 className="text-2xl">Frontend Developer</h2>
         <p className="text-lg">
           A versatile developer who brings exceptional UX sensibility and component architecture expertise to every
           project.
