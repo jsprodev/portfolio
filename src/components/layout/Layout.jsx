@@ -12,7 +12,7 @@ export const Layout = ({ children, setTheme }) => {
         btnName={"Resume"}
         setTheme={setTheme}
       />
-      <div className="min-h-dvh max-w-7xl mx-auto px-6 lg:px-8">{children}</div>
+      <div className="min-h-dvh max-w-7xl mx-auto p-6 lg:p-8  lg:py-10">{children}</div>
       <Toaster
         expand={true}
         position="top-right"

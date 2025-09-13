@@ -54,7 +54,7 @@ export const Contact = () => {
   };
 
   return (
-    <section id="contact" className="flex flex-row flex-wrap py-10 gap-10 justify-center items-center">
+    <section id="contact" className="flex flex-row flex-wrap gap-10 justify-center items-center">
       <div className="md:w-[calc(50%-20px)] space-y-10">
         <h1>Lets Get In Touch</h1>
         <p className="text-muted-foreground">

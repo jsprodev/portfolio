@@ -37,7 +37,7 @@ export const Footer = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-end max-md:width-full">
-            <div className="flex items-center max-md:flex-col gap-y-4 mt-5">
+            <div className="flex items-center max-md:flex-col gap-y-4">
               <div className="flex items-center">
                 © 2025 hbk &nbsp; <span className="max-md:hidden">|</span>
               </div>

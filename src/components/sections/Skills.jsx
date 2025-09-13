@@ -20,8 +20,12 @@ import vscode from "@/assets/icons/vscode.svg";
 
 export const Skills = () => {
   return (
-    <section id="skills" className="flex flex-row flex-wrap py-10 gap-10 justify-center items-center">
-      <h1 className="min-w-full">Tech Stack</h1>
+    <section id="skills" className="flex flex-row flex-wrap gap-10 justify-center items-center">
+      <h1 className="min-w-full">Technologies & Skills</h1>
+      {/* <p className="w-full text-muted-foreground mb-5">
+        Over the years, I’ve gained hands-on experience with a wide range of technologies. Here are some that I’ve
+        worked with:
+      </p> */}
       <div className="flex flex-col justify-center skill-icon shadow-skill hover:shadow-skill-hover">
         <HTML className="size-9 mb-2" />
         <span className="text-muted-foreground text-sm">HTML</span>

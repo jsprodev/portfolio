@@ -22,7 +22,7 @@ export const Header = ({ links, btnIcon, btnName, setTheme }) => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-slate-100 dark:bg-slate-950 backdrop-blur-xs">
+    <nav className="sticky top-0 z-50 bg-slate-100/70 dark:bg-slate-950/80 backdrop-blur-sm h-[64px]">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-3">
         <div className="flex flex-wrap align-items justify-between text-muted-foreground text-sm font-medium tracking-wide">
           <Logo />

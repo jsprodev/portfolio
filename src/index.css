@@ -134,6 +134,30 @@
     }
   }
   --animate-slide-prev: slide-prev 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  --animate-fade-up: fade-up 1s ease-out forwards;
+
+  @keyframes scale-in {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  --animate-scale-in: scale-in 0.8s ease-out forwards;
 }
 
 .dark {
@@ -218,6 +242,9 @@
   }
   .skill-icon {
     @apply size-25 items-center bg-slate-200 dark:bg-card rounded-xl border border-slate-400/10 dark:border-slate-800  hover:-translate-y-1 transition-all duration-300 ease-in-out;
+  }
+  section {
+    @apply py-25;
   }
 }
 

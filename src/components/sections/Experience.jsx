@@ -1,6 +1,6 @@
 export const Experience = () => {
   return (
-    <section id="experience" className="flex flex-col py-10 gap-10">
+    <section id="experience" className="flex flex-col gap-10">
       <h1 className="min-w-full">Experience</h1>
       <ol className="relative flex flex-col gap-y-10 text-muted-foreground before:absolute before:top-0 before:left-1/2 before:h-full before:w-0.5 before:-translate-x-1/2 before:rounded-full before:bg-gray-200">
         <li className="group relative grid grid-cols-2 odd:-me-3 even:-ms-3">
@@ -23,14 +23,19 @@ export const Experience = () => {
               <h3 className="text-lg/[1.4] font-semibold mt-1 mb-0">
                 Front End Developer -{" "}
                 <i className="text-blue-600">
-                  <a href="https://www.linkedin.com/company/virtelligence" target="_blank">
+                  <a href="https://www.linkedin.com/company/virtelligence" target="_blank" rel="noopener noreferrer">
                     Virtelligence
                   </a>
                 </i>
               </h3>
               <p className="mt-1">
                 Developed user interface of new features and improved the user experience of existing features of &nbsp;
-                <a className="text-blue-600" href="https://www.recruitbpm.com/" target="_blank">
+                <a
+                  className="text-blue-600"
+                  href="https://www.recruitbpm.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   RecruitBPM
                 </a>
               </p>
@@ -47,14 +52,19 @@ export const Experience = () => {
               <h3 className="text-lg/[1.4] font-semibold mt-1 mb-0">
                 Quality Assurance Analyst -{" "}
                 <i className="text-blue-600">
-                  <a href="https://www.linkedin.com/company/virtelligence" target="_blank">
+                  <a href="https://www.linkedin.com/company/virtelligence" target="_blank" rel="noopener noreferrer">
                     Virtelligence
                   </a>
                 </i>
               </h3>
               <p className="mt-1">
                 Designed and implemented test plans for{" "}
-                <a className="text-blue-600" href="https://www.recruitbpm.com/" target="_blank">
+                <a
+                  className="text-blue-600"
+                  href="https://www.recruitbpm.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   RecruitBPM
                 </a>
                 .{" "}
@@ -72,7 +82,7 @@ export const Experience = () => {
               <h3 className="text-lg/[1.4] font-semibold mt-1 mb-0">
                 Associate Front End Developer -{" "}
                 <i className="text-blue-600">
-                  <a href="https://www.linkedin.com/company/nimble-geeks" target="_blank">
+                  <a href="https://www.linkedin.com/company/nimble-geeks" target="_blank" rel="noopener noreferrer">
                     Nimble Geeks
                   </a>
                 </i>

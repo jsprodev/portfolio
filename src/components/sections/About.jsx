@@ -40,26 +40,34 @@ export const About = ({ theme }) => {
   return (
     <section
       id="about"
-      className="flex flex-col items-center lg:flex-row justify-between flex-wrap mx-auto gap-10 text-muted-foreground py-10"
+      className="flex flex-col items-center lg:flex-row justify-between flex-wrap mx-auto gap-10 text-muted-foreground xl:h-[calc(100vh-64px)] xl:-mt-[72px]"
     >
-      <div className="lg:w-[calc(50%-20px)] max-lg:text-center tracking-wide space-y-4">
-        <h6 className="flex items-center max-lg:justify-center text-lg">
+      <div className="flex flex-col lg:w-[calc(50%-20px)] max-lg:text-center tracking-wide space-y-4 animate-fade-up gap-y-5">
+        <h6 className="flex items-center max-lg:justify-center text-lg m-0">
           <Terminal className="text-blue-600 dark:text-blue-500 stroke-2" />
           &nbsp;"Hello,World!" I am
         </h6>
-        <h1 className="text-5xl">
+        <h1 className="text-5xl m-0">
           <span className="text-blue-600 dark:text-blue-500">H</span>ashim{" "}
           <span className="text-blue-600 dark:text-blue-500">B</span>in{" "}
           <span className="text-blue-600 dark:text-blue-500">K</span>halid
         </h1>
-        <h2 className="text-2xl">Frontend Developer</h2>
-        <p className="text-lg">
+        <h2 className="text-2xl m-0">Frontend Developer</h2>
+        <p className="text-lg m-0">
           A versatile developer who brings exceptional UX sensibility and component architecture expertise to every
           project.
         </p>
+        <div className="flex items-center max-lg:justify-center">
+          <a
+            href="#contact"
+            className="btn-primary py-1.5 rounded-xl cursor-pointer shadow-md transition-all duration-300  hover:scale-105 hover:shadow-xl"
+          >
+            Contact Me
+          </a>
+        </div>
       </div>
       <div className="lg:w-[calc(50%-20px)]">
-        <div className="rounded-2xl w-full bg-slate-200 dark:bg-slate-950 border border-slate-400/10 dark:border-slate-800 shadow-card hover:shadow-card-hover">
+        <div className="rounded-2xl w-full bg-slate-200 dark:bg-slate-950 border border-slate-400/10 dark:border-slate-800 shadow-card hover:shadow-card-hover animate-scale-in">
           <div className="flex flex-wrap text-sm tracking-wide">
             <span className="inline-flex items-center px-4 py-3  text-muted-foreground border-r-1 border-slate-400/20 dark:border-slate-800">
               <Code size={16} className="text-red-500 mr-1 mt-0.5" /> index.html
