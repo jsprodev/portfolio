@@ -85,6 +85,7 @@ export const Contact = () => {
             <a
               className="rounded-full bg-gray-400/20 hover:bg-gray-400/30 p-3 text-muted-foreground"
               href="https://www.linkedin.com/in/hashimkhalid/"
+              target="_blank"
               rel="noopener noreferrer"
             >
               <Linkedin size={18} />

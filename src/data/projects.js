@@ -41,10 +41,10 @@ export const PROJECTS = [
       "An interactive sentiment analysis dashboard for TV channels and reporters, with filters, charts, and grid/list views for easy comparison.",
     tags: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Isotope", "Highcharts"],
   },
-  {
-    directory: "mv",
-    title: "Magnet Villas",
-    description: "Magnet Villas is a housing society in Punjab.",
-    tags: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap"],
-  },
+  // {
+  //   directory: "mv",
+  //   title: "Magnet Villas",
+  //   description: "Magnet Villas is a housing society in Punjab.",
+  //   tags: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap"],
+  // },
 ];
